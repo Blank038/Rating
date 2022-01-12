@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group 'com.blank038.rating'
+version '1.0.0-SNAPSHOT'
+archivesBaseName = 'Rating'
+
+dependencies {
+    compile fileTree(dir: './libs', includes: ["*.jar"])
+}
+
+sourceCompatibility = targetCompatibility = '1.8'
+compileJava {
+    sourceCompatibility = targetCompatibility = '1.8'
+}
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'plugin.yml'
+
+        expand 'version':project.version, 'name':project.name
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'plugin.yml'
+    }
+}
