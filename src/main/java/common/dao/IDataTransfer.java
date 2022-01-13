@@ -1,6 +1,6 @@
-package com.blank038.rating.dao;
+package common.dao;
 
-import com.blank038.rating.data.RateData;
+import common.data.RateData;
 
 /**
  * 数据转换接口

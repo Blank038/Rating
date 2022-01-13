@@ -1,6 +1,6 @@
-package com.blank038.rating.command;
+package com.blank038.rating.bukkit.command;
 
-import com.blank038.rating.Rating;
+import com.blank038.rating.bukkit.Rating;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

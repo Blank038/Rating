@@ -1,8 +1,8 @@
-package com.blank038.rating.dao.basic;
+package common.dao.basic;
 
-import com.blank038.rating.Rating;
-import com.blank038.rating.dao.IDataTransfer;
-import com.blank038.rating.data.RateData;
+import com.blank038.rating.bukkit.Rating;
+import common.dao.IDataTransfer;
+import common.data.RateData;
 import com.mc9y.blank038api.util.mysql.MySqlStorageHandler;
 
 /**

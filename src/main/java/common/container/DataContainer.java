@@ -1,6 +1,6 @@
-package com.blank038.rating.container;
+package common.container;
 
-import com.blank038.rating.data.RateData;
+import common.data.RateData;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.blank038.rating.listener;
+package com.blank038.rating.bukkit.listener;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

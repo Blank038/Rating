@@ -1,6 +1,4 @@
-package com.blank038.rating.data;
-
-import org.bukkit.configuration.file.FileConfiguration;
+package common.data;
 
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package com.blank038.rating;
+package com.blank038.rating.bukkit;
 
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;

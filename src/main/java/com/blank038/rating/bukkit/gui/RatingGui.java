@@ -1,6 +1,6 @@
-package com.blank038.rating.gui;
+package com.blank038.rating.bukkit.gui;
 
-import com.blank038.rating.Rating;
+import com.blank038.rating.bukkit.Rating;
 import com.mc9y.blank038api.util.common.CommonUtil;
 import com.mc9y.blank038api.util.inventory.GuiModel;
 import org.bukkit.ChatColor;
