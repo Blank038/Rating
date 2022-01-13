@@ -1,0 +1,17 @@
+# 是否能评分此服
+allow-rate: false
+# 存储设定
+data-option:
+  # 存储类型: MySQL, YAML, SQLite, 自定义模块名
+  type: "MySQL"
+  mysql:
+    # MySQL的URL，例如jdbc:mysql://127.0.0.1/minecraft 格式：jdbc:mysql://MySQL地址/数据库名
+    url: jdbc:mysql://localhost/minecraft
+    # 数据库用户名
+    user: "root"
+    # 数据库密码
+    password: "root"
+# 提示文本
+message:
+  prefix: "&6评分系统&f "
+  reload: "插件配置重载完成."
