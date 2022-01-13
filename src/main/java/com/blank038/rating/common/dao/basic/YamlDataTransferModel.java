@@ -1,13 +1,13 @@
-package common.dao.basic;
+package com.blank038.rating.common.dao.basic;
 
-import common.dao.IDataTransfer;
-import common.data.RateData;
+import com.blank038.rating.common.dao.IDataTransfer;
+import com.blank038.rating.common.data.RateData;
 
 /**
  * @author Blank038
  * @since 2022-01-13
  */
-public class SqliteDataTransferModel implements IDataTransfer {
+public class YamlDataTransferModel implements IDataTransfer {
 
     @Override
     public boolean checkStatus() {

@@ -1,4 +1,4 @@
-package common.dao;
+package com.blank038.rating.common.dao;
 
 import java.util.ArrayList;
 import java.util.List;

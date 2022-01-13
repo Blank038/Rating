@@ -1,4 +1,4 @@
-package common.data;
+package com.blank038.rating.common.data;
 
 import java.util.UUID;
 
